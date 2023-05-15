@@ -16,11 +16,11 @@ I will request a change be made to one of your 10 nouns for the sole purpose of 
     If your noun consists of multiple words, use camelCaseToNameIt.
  
  2) for each of the 10 nouns, write out 3 actions it might perform, in plain english.
-    a) AVOID state-checking actions, like "Car has a horn".  i.e.
-        Car.hasHorn()
+    a) AVOID state-checking actions, like "car has a horn".  i.e.
+        car.hasHorn()
     b) We use 'can' and 'has' to check the state of objects, so they aren't really 'action' verbs.
-        "the Car blows its horn" is a better action, because the Car is doing something.  its state is not being checked.  i.e.
-            Car.blowsHorn()
+        "the car blows its horn" is a better action, because the car is doing something.  its state is not being checked.  i.e.
+            car.blowsHorn()
     c) choose actions that your noun does.  Do not write out actions that are performed on your noun.
         for example: 
             noun: lightBulb.
@@ -52,85 +52,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun: Car
-//  action 1: the Car accelerates
-Car.accelerate();
-//  action 2: the Car turns on the check engine light
-Car.checkEngineLightOn();
-//  action 3: the Car detects low windshield wiper fluid
-Car.lowWindshieldWiperFluid();
+//  Noun: car
+//  action 1: the car accelerates
+car.accelerate();
+//  action 2: the car turns on the check engine light
+car.checkEngineLightOn();
+//  action 3: the car detects low windshield wiper fluid
+car.lowWindshieldWiperFluid();
 //  2)
-//  Noun: Person
-//  action 1: the Person walks
-Person.walk();
-//  action 2: the Person jumps
-Person.jump();
-//  action 3: the Person speaks
-Person.speak();
+//  Noun: person
+//  action 1: the person walks
+person.walk();
+//  action 2: the person jumps
+person.jump();
+//  action 3: the person speaks
+person.speak();
 //  3)
-//  Noun: Stereo
-//  action 1: the Stereo selects an input
-Stereo.selectInput();
-//  action 2: the Stereo changes the output volume
-Stereo.changeOutputVolume();
-//  action 3: the Stereo engages the subwoofer
-Stereo.engageSubwoofer();
+//  Noun: stereo
+//  action 1: the stereo selects an input
+stereo.selectInput();
+//  action 2: the stereo changes the output volume
+stereo.changeOutputVolume();
+//  action 3: the stereo engages the subwoofer
+stereo.engageSubwoofer();
 //  4) 
-//  Noun: Oven
-//  action 1: the Oven preheats
-Oven.preheat();
-//  action 2: the Oven notifies when preheated
-Oven.preheatNotify();
-//  action 3: the Oven notifies when a timer ends
-Oven.timerNotify();
+//  Noun: oven
+//  action 1: the oven preheats
+oven.preheat();
+//  action 2: the oven notifies when preheated
+oven.preheatNotify();
+//  action 3: the oven notifies when a timer ends
+oven.timerNotify();
 //  5)
-//  Noun: N64
-//  action 1: the N64 powers on
-N64.powerOn();
-//  action 2: the N64 loads Cartridge data
-N64.loadCartridge();
-//  action 3: the N64 resets
-N64.reset();
+//  Noun: n64
+//  action 1: the n64 powers on
+n64.powerOn();
+//  action 2: the n64 loads cartridge data
+n64.loadcartridge();
+//  action 3: the n64 resets
+n64.reset();
 //  6)
-//  Noun: Drumpad
-//  action 1: the Drumpad triggers a sample
-Drumpad.triggerSample();
-//  action 2: the Drumpad sends MIDI data
-Drumpad.sendMIDI();
-//  action 3: the Drumpad applies effects to drum sounds
-Drumpad.applyFX();
+//  Noun: drumpad
+//  action 1: the drumpad triggers a sample
+drumpad.triggerSample();
+//  action 2: the drumpad sends MIDI data
+drumpad.sendMIDI();
+//  action 3: the drumpad applies effects to drum sounds
+drumpad.applyFX();
 //  7)
-//  Noun: Roomba
-//  action 1: the Roomba vacuums
-Roomba.vacuum();
-//  action 2: the Roomba returns home
-Roomba.returnHome();
-//  action 3: the Roomba sends a status report
-Roomba.sendStatusReport();
+//  Noun: roomba
+//  action 1: the roomba vacuums
+roomba.vacuum();
+//  action 2: the roomba returns home
+roomba.returnHome();
+//  action 3: the roomba sends a status report
+roomba.sendStatusReport();
 //  8)
-//  Noun: Baby
-//  action 1: the Baby poops
-Baby.poop();
-//  action 2: the Baby fusses
-Baby.fuss();
-//  action 3: the Baby does something cute
-Baby.doSomethingCute();
+//  Noun: baby
+//  action 1: the baby poops
+baby.poop();
+//  action 2: the baby fusses
+baby.fuss();
+//  action 3: the baby does something cute
+baby.doSomethingCute();
 //  9)
-//  Noun: Phone
-//  action 1: the Phone rings
-Phone.ring();
-//  action 2: the Phone plays back a voice mail
-Phone.playVoicemail();
+//  Noun: phone
+//  action 1: the phone rings
+phone.ring();
+//  action 2: the phone plays back a voice mail
+phone.playVoicemail();
 //  action 3: the phone sends a reminder
-Phone.sendReminder();
+phone.sendReminder();
 //  10)
-//  Noun: Computer Display
-//  action 1: the Computer Display auto-detecs an input
-ComputerDisplay.autoDetectInput();
-//  action 2: the Computer Display changes resolution
-ComputerDisplay.changeResolution();
-//  action 3: the Computer Display auto sleeps
-ComputerDisplay.autoSleep();
+//  Noun: computer Display
+//  action 1: the computer Display auto-detecs an input
+computerDisplay.autoDetectInput();
+//  action 2: the computer Display changes resolution
+computerDisplay.changeResolution();
+//  action 3: the computer Display auto sleeps
+computerDisplay.autoSleep();
 #endif
 
 /*
