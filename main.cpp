@@ -68,13 +68,13 @@ person.jump();
 //  action 3: the person speaks
 person.speak();
 //  3)
-//  Noun: stereo
-//  action 1: the stereo selects an input
-stereo.selectInput();
-//  action 2: the stereo changes the output volume
-stereo.changeOutputVolume();
-//  action 3: the stereo engages the subwoofer
-stereo.engageSubwoofer();
+//  Noun: audio Interface
+//  action 1: the audio interface connects to the computer
+audioInterface.connectToComputer();
+//  action 2: the audio interface converts the incoming signal
+audioInterface.convertSignal();
+//  action 3: the audio interface sends the digital signal to the DAW
+audioInterface.sendToDAW();
 //  4) 
 //  Noun: oven
 //  action 1: the oven preheats
